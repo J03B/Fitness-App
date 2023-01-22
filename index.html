@@ -50,7 +50,7 @@
 
               <!-- Link to user profile -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Profile</a>
+                <a class="nav-link" href="#">My Workouts</a>
               </li>
 
               <!-- Workout History Dropdown options -->
@@ -61,6 +61,7 @@
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Last Workout</a></li>
                   <li><a class="dropdown-item" href="#">Last Week</a></li>
+                  <li><a class="dropdown-item" href="#">Last Month</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">All History</a></li>
                 </ul>
@@ -76,13 +77,23 @@
         </div>
       </nav>
 
+      <!-- Header of page -->
+      <div class="container overflow-hidden text-center">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3 display-6">J03B's Fitness Tracker</div>
+          </div>
+        </div>
+      </div>
 
       <!-- Adding a section for the user to start their workout now -->
       <div class="container text-center">
         <div class="row align-items-center">
-            <div class="col-2"></div>
-            <div class="col">
-                <h1>⚡ Quick Workout ⚡</h1>
+            <div class="col-1"></div>
+            <div class="col card p-1 m-1">
+              <div class="card m-1">
+                <h3 class="display-6">⚡Quick Workout⚡</h3>
+              </div>
                 <div id="carouselExampleCaptions" class="carousel slide">
                     <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -91,24 +102,24 @@
                     </div>
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./assets/images/shoulders-and-back.jpg" class="d-block w-100 border rounded" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Day 1</h5>
-                        <p>Primary focus on shoulders and back.</p>
+                        <img id="day-1" src="./assets/images/shoulders-and-back.jpg" class="d-block w-100 border rounded" alt="...">
+                        <div class="carousel-caption d-md-block">
+                        <h5 class="neonText">Day 1</h5>
+                        <p class="neonText">Focus on shoulders and back.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/images/leg-squat.jpg" class="d-block w-100 border rounded" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Day 2</h5>
-                        <p>Primary focus on legs and core.</p>
+                        <img id="day-2" src="./assets/images/leg-squat.jpg" class="d-block w-100 border rounded" alt="...">
+                        <div class="carousel-caption d-md-block">
+                        <h5 class="neonText">Day 2</h5>
+                        <p class="neonText">Focus on legs and core.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="./assets/images/chest-day.jpg" class="d-block w-100 border rounded" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                        <h5>Day 3</h5>
-                        <p>Primary focus on chest and arms.</p>
+                        <img id="day-3" src="./assets/images/chest-day.jpg" class="d-block w-100 border rounded" alt="...">
+                        <div class="carousel-caption d-md-block">
+                        <h5 class="neonText">Day 3</h5>
+                        <p class="neonText">Focus on chest and arms.</p>
                         </div>
                     </div>
                     </div>
@@ -122,7 +133,7 @@
                     </button>
                 </div>
             </div>
-            <div class="col-2"></div>
+            <div class="col-1"></div>
         </div>
       </div>
 
