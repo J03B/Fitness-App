@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+  <link href="/css/styles.css" rel="stylesheet" />
+  <title>Fitness Tracker</title>
+</head>
+
+<body>
+  <header class="display-flex justify-space-between align-center p-2">
+    <!-- Navigator bar for each part of the app -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        
+        <!-- Site name: J03B's Fitness-->
+        <a class="navbar-brand">Fit Jib</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- List of other navigator bar sections -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+
+            <!-- Link to user profile -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Workouts</a>
+            </li>
+
+            <!-- Workout History Dropdown options -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                History
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Last Workout</a></li>
+                <li><a class="dropdown-item" href="#">Last Week</a></li>
+                <li><a class="dropdown-item" href="#">Last Month</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">All History</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          {{#if loggedIn}}
+          <button class="btn btn-primary m-1" id="logout">logout</button>
+          {{/if}}
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header of page -->
+    <div class="container overflow-hidden text-center">
+      <div class="row gx-5">
+        <div class="col">
+          <div class="p-3 display-6">J03B's Fitness Tracker</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <main class="container container-fluid mt-5">
+    {{{ body }}}
+  </main>
+  <footer>
+      
+  </footer>
+
+  {{#if loggedIn}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+</body>
+
+<!-- Include Bootstrap MDB script -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+
+<!-- Custom JS file for user form interactivity and local storage of responses -->
+<script src="/js/landing-script.js"></script>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+
+</html>
