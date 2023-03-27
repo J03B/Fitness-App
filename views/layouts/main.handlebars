@@ -15,67 +15,50 @@
 </head>
 
 <body>
-  <header class="display-flex justify-space-between align-center p-2">
+  <header>
     <!-- Navigator bar for each part of the app -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
-        
-        <!-- Site name: J03B's Fitness-->
-        <a class="navbar-brand">Fit Jib</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
         </button>
-
-        <!-- List of other navigator bar sections -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarExample01">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
             </li>
-
-            <!-- Link to user profile -->
             <li class="nav-item">
-              <a class="nav-link" href="#">My Workouts</a>
+              <a class="nav-link" href="/workouts">My Workouts</a>
             </li>
-
-            <!-- Workout History Dropdown options -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                History
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Last Workout</a></li>
-                <li><a class="dropdown-item" href="#">Last Week</a></li>
-                <li><a class="dropdown-item" href="#">Last Month</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">All History</a></li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="/">About</a>
+            </li>
+            <li class="nav-item">
+              {{#if loggedIn}}
+              <a class="nav-link" href="/">logout</a>
+              {{else}}
+              <a class="nav-link" href="/login">login</a>
+              {{/if}}
             </li>
           </ul>
-
-          {{#if loggedIn}}
-          <button class="btn btn-primary m-1" id="logout">logout</button>
-          {{/if}}
         </div>
       </div>
     </nav>
-
-    <!-- Header of page -->
-    <div class="container overflow-hidden text-center">
-      <div class="row gx-5">
-        <div class="col">
-          <div class="p-3 display-6">J03B's Fitness Tracker</div>
-        </div>
-      </div>
-    </div>
   </header>
   
   <main class="container container-fluid mt-5">
     {{{ body }}}
   </main>
-  <footer>
-      
-  </footer>
+
+  <footer> </footer>
 
   {{#if loggedIn}}
   <script src="/js/logout.js"></script>
