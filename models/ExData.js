@@ -22,6 +22,10 @@ ExData.init(
                 key: 'id',
             },
         },
+        set_number: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
         reps: {
             type: DataTypes.INTEGER,
             allowNull: false,

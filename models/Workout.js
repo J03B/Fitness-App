@@ -26,6 +26,10 @@ Workout.init(
             type: DataTypes.INTEGER,
             allowNull: false,
         },
+        sec_between_exercise: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
     },
     {
         sequelize,

@@ -22,6 +22,10 @@ Phase.init(
                 key: 'id',
             },
         },
+        position: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
         number_of_weeks: {
             type: DataTypes.INTEGER,
             allowNull: false,

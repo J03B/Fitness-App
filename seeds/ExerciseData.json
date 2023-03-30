@@ -1,0 +1,200 @@
+[
+    {
+        "name": "Handstand Pushups",
+        "workout_id": "1",
+        "description": "With your feet up against the wall for balance, do deep handstand pushups so that your head can touch the ground.",
+        "position": "1",
+        "goal_reps": "20",
+        "goal_weight": "0",
+        "goal_units": "bw",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Weighted Chin Ups",
+        "workout_id": "1",
+        "description": "Weighted chin-ups are regular chin-ups but with additional weight either hanging from your waist with a dip belt, wearing a weighted vest, or holding a dumbbell between your legs.",
+        "position": "2",
+        "goal_reps": "5",
+        "goal_weight": "160",
+        "goal_units": "lbs",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Seated Shoulder Press",
+        "workout_id": "1",
+        "description": "The seated dumbbell press is a variation of the standing dumbbell press and an exercise used to strengthen the muscles of the shoulders.",
+        "position": "3",
+        "goal_reps": "5",
+        "goal_weight": "120",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "3 Version Rows",
+        "workout_id": "1",
+        "description": "Leaning rows at three angles; 90 degrees, 0 degrees, and back to the hip. Each targets a different part of the back.",
+        "position": "4",
+        "goal_reps": "6",
+        "goal_weight": "120",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Side-Front Raises",
+        "workout_id": "1",
+        "description": "First, do all reps to the front, then do all reps to the side.",
+        "position": "5",
+        "goal_reps": "6",
+        "goal_weight": "70",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Leaning Fly Finisher",
+        "workout_id": "1",
+        "description": "This exercise works well whether seated or standing, just make sure your back is straight and not strained.",
+        "position": "6",
+        "goal_reps": "8",
+        "goal_weight": "80",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Bulgarian Split Squat",
+        "workout_id": "2",
+        "description": "The default distance from the foot rest is for you to be able to have a right angle bent knee when all the way down.",
+        "position": "1",
+        "goal_reps": "8",
+        "goal_weight": "125",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Single Leg RDL",
+        "workout_id": "2",
+        "description": "RDL stands for Romanian Dead Lift. This exercise should target nearly your entire backside.",
+        "position": "2",
+        "goal_reps": "8",
+        "goal_weight": "125",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Sumo Squats",
+        "workout_id": "2",
+        "description": "Make sure you target your outer buttocks muscles as you complete the motions.",
+        "position": "3",
+        "goal_reps": "5",
+        "goal_weight": "400",
+        "goal_units": "lbs",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Pistol Squats",
+        "workout_id": "2",
+        "description": "Goal is to be able to do dragonfly squats.",
+        "position": "4",
+        "goal_reps": "8",
+        "goal_weight": "90",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Single Leg Hip Thrusts",
+        "workout_id": "2",
+        "description": "Ideal distance from bench is to touch your heels while seated against the bench.",
+        "position": "5",
+        "goal_reps": "12",
+        "goal_weight": "150",
+        "goal_units": "lbs",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Single Leg Hip Thrusts",
+        "workout_id": "2",
+        "description": "Ideal distance from bench is to touch your heels while seated against the bench.",
+        "position": "5",
+        "goal_reps": "12",
+        "goal_weight": "150",
+        "goal_units": "lbs",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Calf Raises",
+        "workout_id": "3",
+        "description": "Best to do 3 angles of calf raises. The goal accounts for all three angles done consecutively.",
+        "position": "6",
+        "goal_reps": "30",
+        "goal_weight": "120",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "One Arm Incline Pushups",
+        "workout_id": "3",
+        "description": "You may need to spread your legs to maintain balance during the exercise.",
+        "position": "1",
+        "goal_reps": "16",
+        "goal_weight": "0",
+        "goal_units": "bw",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Incline Dumbbell Curls",
+        "workout_id": "3",
+        "description": "Do a slight incline. More is not better for the incline.",
+        "position": "2",
+        "goal_reps": "8",
+        "goal_weight": "90",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Incline Bench Press",
+        "workout_id": "3",
+        "description": "Do a slight incline. More is not better for the incline.",
+        "position": "3",
+        "goal_reps": "5",
+        "goal_weight": "345",
+        "goal_units": "lbs",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Pinwheel Curls",
+        "workout_id": "3",
+        "description": "Make sure you squeeze tight as to best work both targeted muscle groups here.",
+        "position": "4",
+        "goal_reps": "8",
+        "goal_weight": "120",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    },
+    {
+        "name": "Incline Flys/pushups",
+        "workout_id": "3",
+        "description": "Do as many pushups as you do flys, but immediately following the first exercise.",
+        "position": "5",
+        "goal_reps": "10",
+        "goal_weight": "80",
+        "goal_units": "lbs x dumbbell",
+        "number_of_sets": "3",
+        "sec_between_sets": "120"
+    }
+]

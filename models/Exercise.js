@@ -44,7 +44,16 @@ Exercise.init(
             values: [
                 'lbs',
                 'bw',
+                'lbs x dumbbell',
             ],
+        },
+        number_of_sets: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
+        },
+        sec_between_sets: {
+            type: DataTypes.INTEGER,
+            allowNull: false,
         },
     },
     {

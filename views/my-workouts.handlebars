@@ -1,0 +1,14 @@
+{{#if loggedIn}}
+
+{{#each user}}
+<div class="card">
+  <div class="card-header">Featured</div>
+  <div class="card-body">
+    <h5 class="card-title">{{username}}</h5>
+    <p class="card-text">{{programs.description}}</p>
+    <a href="#" class="btn btn-primary">Go to workout</a>
+  </div>
+</div>
+{{/each}}
+
+{{/if}}

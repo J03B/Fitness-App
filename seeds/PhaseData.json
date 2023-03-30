@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Bulk Phase",
+        "program_id": "1",
+        "position": "1",
+        "number_of_weeks": "4"
+    },
+    {
+        "name": "Adaptive Phase",
+        "program_id": "1",
+        "position": "2",
+        "number_of_weeks": "4"
+    },
+    {
+        "name": "Shrink Wrap Phase",
+        "program_id": "1",
+        "position": "3",
+        "number_of_weeks": "4"
+    }
+]

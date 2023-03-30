@@ -22,6 +22,10 @@ Program.init(
                 key: 'id',
             },
         },
+        description: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        },
         start_date: {
             type: DataTypes.DATE,
             allowNull: false,

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Day 1: Shoulders and Back (P1)",
+        "phase_id": "1",
+        "position": "1",
+        "sec_between_exercise": "60"
+    }, 
+    {
+        "name": "Day 2: Legs and Core (P1)",
+        "phase_id": "1",
+        "position": "2",
+        "sec_between_exercise": "60"
+    },
+    {
+        "name": "Day 3: Chest and Arms (P1)",
+        "phase_id": "1",
+        "position": "3",
+        "sec_between_exercise": "60"
+    },
+    {
+        "name": "Day 1: Shoulders and Back (P2)",
+        "phase_id": "2",
+        "position": "1",
+        "sec_between_exercise": "60"
+    }, 
+    {
+        "name": "Day 2: Legs and Core (P2)",
+        "phase_id": "2",
+        "position": "2",
+        "sec_between_exercise": "60"
+    },
+    {
+        "name": "Day 3: Chest and Arms (P2)",
+        "phase_id": "2",
+        "position": "3",
+        "sec_between_exercise": "60"
+    },
+    {
+        "name": "Day 1: Shoulders and Back (P3)",
+        "phase_id": "3",
+        "position": "1",
+        "sec_between_exercise": "60"
+    }, 
+    {
+        "name": "Day 2: Legs and Core (P3)",
+        "phase_id": "3",
+        "position": "2",
+        "sec_between_exercise": "60"
+    },
+    {
+        "name": "Day 3: Chest and Arms (P3)",
+        "phase_id": "3",
+        "position": "3",
+        "sec_between_exercise": "60"
+    }
+]
